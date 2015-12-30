@@ -1,0 +1,6 @@
+setup.py
+dnb_fdw/__init__.py
+dnb_fdw.egg-info/PKG-INFO
+dnb_fdw.egg-info/SOURCES.txt
+dnb_fdw.egg-info/dependency_links.txt
+dnb_fdw.egg-info/top_level.txt

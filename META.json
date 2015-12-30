@@ -1,0 +1,39 @@
+{
+   "provides": {
+       "dnb_fdw": {
+			"abstract": "FDW extension for dnb",
+			"version": "0.0.1",
+			"file": "src/dnb_fdw.c"
+	   }
+   },
+   "name": "dnb_fdw",
+   "abstract": "FDW extension for dnb",
+   "tags": ["fdw", "dnb"],
+   "resources": {
+   	"bugtracker": {
+	    "web": "https://github.com/dpmorel/dnb_fdw/issues"
+	},
+	"repository": {
+	    "url": "https://github.com/dpmorel/dnb_fdw",
+	    "web": "https://github.com/dpmorel/dnb_fdw",
+	    "type": "git"
+	}
+   },
+   "release_status": "stable",
+   "version": "0.0.1",
+   "maintainer": [
+       "Dan Morel <dan.morel@gmail.com>"
+   ],
+   "license": "postgresql",
+   "meta-spec": {
+      "version": "1.0.0",
+      "url": "http://pgxn.org/meta/spec.txt"
+   },
+   "prereqs": {
+      "runtime": {
+         "requires": {
+            "PostgreSQL": "9.2.0"
+         }
+      }
+   },
+}
